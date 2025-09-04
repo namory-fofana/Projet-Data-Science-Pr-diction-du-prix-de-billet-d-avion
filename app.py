@@ -4,6 +4,10 @@ import sklearn
 import pickle
 import pandas as pd
 import numpy as np 
+import os
+
+# Pour Render.com, utiliser le port fourni par l'environnement
+port = int(os.environ.get('PORT', 5000))
 
 app = Flask(__name__)
 
@@ -89,4 +93,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+     app.run(host='0.0.0.0', port=port)
