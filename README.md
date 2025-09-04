@@ -13,3 +13,6 @@ Date_of_Journey : la date du voyage Source : le point de départ du service. Des
 Construire un modèle d'apprentissage automatique permettant de prédire le prix des billets d'avion pour différentes compagnies aériennes. 
 
 <img width="1826" height="904" alt="image" src="https://github.com/user-attachments/assets/da4e5429-e58d-424a-ad00-73303f1a272f" />
+
+## Lien de l'application
+https://flight-price-prediction-ph2q.onrender.com/
